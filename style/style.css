@@ -1,0 +1,125 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #040F16;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #005E7C;
+    height: 100px;
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 70px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: black;
+    background-color: bisque;
+}
+
+header {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+#me {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+.wrapper {
+    display: grid;
+    row-gap: 50px;
+    justify-items: center;
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+    top: 0;
+}
+
+footer {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #001242;
+}
+
+i {
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#text_1 {
+    width: 50%;
+    background-color: #000022;
+    text-align: center;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 50%;
+    background-color: #0094C6;
+}
+
+#text_2 {
+    width: 50%;
+    background-color: #000022;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 30px;
+    color: white;
+}
+
+.demo {
+    height: 800px;
+    width: 400px;
+}
+
+.resume {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
