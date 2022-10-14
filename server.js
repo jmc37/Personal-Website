@@ -8,3 +8,7 @@ app.listen(port_number);
 app.get('/', function(req, res, next){
     res.sendStatus(200);
 });
+
+app.get('/index.html', function(req, res, next){
+    res.sendFile(path.join(__dirname+"/index.html"));
+});
